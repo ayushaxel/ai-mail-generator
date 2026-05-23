@@ -21,7 +21,7 @@ const App = () => {
   const [history, setHistory] = useState([]);
   const [activeTab, setActiveTab] = useState("generate");
 
-  const server = "http://localhost:5000";
+  const server = "https://ai-mail-backend-pq5l.onrender.com";
 
   const handleAuth = useCallback(async (e) => {
     e.preventDefault();
